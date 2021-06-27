@@ -10,15 +10,15 @@ fi
 red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
-MYIP=$(wget -qO- icanhazip.com);
+MYIP=$(wget -qO- ipinfo.io/ip);
 IZIN=$( curl http://akses.endka.ga:81/aksesku | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
 echo "Please Contact Admin"
-echo "Telegram t.me/Endka22"
-echo "WhatsApp wa.me/6281318389745"
+echo "Telegram t.me/Tabah_Rs"
+echo "WhatsApp wa.me/6287894574033"
 rm -f setup.sh
 exit 0
 fi
@@ -26,51 +26,51 @@ echo "Start Patch"
 echo "Fix Curl IP Address"
 cd /usr/bin
 cd /usr/bin
-wget -O add-host "https://raw.githubusercontent.com/Endka22/Autoscript/main/add-host.sh"
-wget -O about "https://raw.githubusercontent.com/Endka22/Autoscript/main/about.sh"
-wget -O menu "https://raw.githubusercontent.com/Endka22/Autoscript/main/menu.sh"
-wget -O usernew "https://raw.githubusercontent.com/Endka22/Autoscript/main/usernew.sh"
-wget -O trial "https://raw.githubusercontent.com/Endka22/Autoscript/main/trial.sh"
-wget -O hapus "https://raw.githubusercontent.com/Endka22/Autoscript/main/hapus.sh"
-wget -O member "https://raw.githubusercontent.com/Endka22/Autoscript/main/member.sh"
-wget -O delete "https://raw.githubusercontent.com/Endka22/Autoscript/main/delete.sh"
-wget -O cek "https://raw.githubusercontent.com/Endka22/Autoscript/main/cek.sh"
-wget -O restart "https://raw.githubusercontent.com/Endka22/Autoscript/main/restart.sh"
-wget -O speedtest "https://raw.githubusercontent.com/Endka22/Autoscript/main/speedtest_cli.py"
-wget -O info "https://raw.githubusercontent.com/Endka22/Autoscript/main/info.sh"
-wget -O ram "https://raw.githubusercontent.com/Endka22/Autoscript/main/ram.sh"
-wget -O renew "https://raw.githubusercontent.com/Endka22/Autoscript/main/renew.sh"
-wget -O autokill "https://raw.githubusercontent.com/Endka22/Autoscript/main/autokill.sh"
-wget -O ceklim "https://raw.githubusercontent.com/Endka22/Autoscript/main/ceklim.sh"
-wget -O tendang "https://raw.githubusercontent.com/Endka22/Autoscript/main/tendang.sh"
-wget -O clear-log "https://raw.githubusercontent.com/Endka22/Autoscript/main/clear-log.sh"
-wget -O add-ws "https://raw.githubusercontent.com/Endka22/Autoscript/main/add-ws.sh"
-wget -O add-vless "https://raw.githubusercontent.com/Endka22/Autoscript/main/add-vless.sh"
-wget -O add-tr "https://raw.githubusercontent.com/Endka22/Autoscript/main/add-tr.sh"
-wget -O del-ws "https://raw.githubusercontent.com/Endka22/Autoscript/main/del-ws.sh"
-wget -O del-vless "https://raw.githubusercontent.com/Endka22/Autoscript/main/del-vless.sh"
-wget -O del-tr "https://raw.githubusercontent.com/Endka22/Autoscript/main/del-tr.sh"
-wget -O cek-ws "https://raw.githubusercontent.com/Endka22/Autoscript/main/cek-ws.sh"
-wget -O cek-vless "https://raw.githubusercontent.com/Endka22/Autoscript/main/cek-vless.sh"
-wget -O cek-tr "https://raw.githubusercontent.com/Endka22/Autoscript/main/cek-tr.sh"
-wget -O renew-ws "https://raw.githubusercontent.com/Endka22/Autoscript/main/renew-ws.sh"
-wget -O renew-vless "https://raw.githubusercontent.com/Endka22/Autoscript/main/renew-vless.sh"
-wget -O renew-tr "https://raw.githubusercontent.com/Endka22/Autoscript/main/renew-tr.sh"
-wget -O certv2ray "https://raw.githubusercontent.com/Endka22/Autoscript/main/cert.sh"
-wget -O autobackup "https://raw.githubusercontent.com/Endka22/Autoscript/main/autobackup.sh"
-wget -O backup "https://raw.githubusercontent.com/Endka22/Autoscript/main/backup.sh"
-wget -O bckp "https://raw.githubusercontent.com/Endka22/Autoscript/main/bckp.sh"
-wget -O restore "https://raw.githubusercontent.com/Endka22/Autoscript/main/restore.sh"
-wget -O strt "https://raw.githubusercontent.com/Endka22/Autoscript/main/strt.sh"
-wget -O limit-speed "https://raw.githubusercontent.com/Endka22/Autoscript/main/limit-speed.sh"
-wget -O add-ss "https://raw.githubusercontent.com/Endka22/Autoscript/main/add-ss.sh"
-wget -O del-ss "https://raw.githubusercontent.com/Endka22/Autoscript/main/del-ss.sh"
-wget -O cek-ss "https://raw.githubusercontent.com/Endka22/Autoscript/main/cek-ss.sh"
-wget -O renew-ss "https://raw.githubusercontent.com/Endka22/Autoscript/main/renew-ss.sh"
-wget -O add-wg "https://raw.githubusercontent.com/Endka22/Autoscript/main/add-wg.sh"
-wget -O del-wg "https://raw.githubusercontent.com/Endka22/Autoscript/main/del-wg.sh"
-wget -O cek-wg "https://raw.githubusercontent.com/Endka22/Autoscript/main/cek-wg.sh"
-wget -O renew-wg "https://raw.githubusercontent.com/Endka22/Autoscript/main/renew-wg.sh"
+wget -O add-host "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/add-host.sh"
+wget -O about "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/about.sh"
+wget -O menu "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/menu.sh"
+wget -O usernew "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/usernew.sh"
+wget -O trial "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/trial.sh"
+wget -O hapus "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/hapus.sh"
+wget -O member "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/member.sh"
+wget -O delete "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/delete.sh"
+wget -O cek "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/cek.sh"
+wget -O restart "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/restart.sh"
+wget -O speedtest "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/speedtest_cli.py"
+wget -O info "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/info.sh"
+wget -O ram "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/ram.sh"
+wget -O renew "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/renew.sh"
+wget -O autokill "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/autokill.sh"
+wget -O ceklim "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/ceklim.sh"
+wget -O tendang "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/tendang.sh"
+wget -O clear-log "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/clear-log.sh"
+wget -O add-ws "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/add-ws.sh"
+wget -O add-vless "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/add-vless.sh"
+wget -O add-tr "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/add-tr.sh"
+wget -O del-ws "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/del-ws.sh"
+wget -O del-vless "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/del-vless.sh"
+wget -O del-tr "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/del-tr.sh"
+wget -O cek-ws "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/cek-ws.sh"
+wget -O cek-vless "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/cek-vless.sh"
+wget -O cek-tr "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/cek-tr.sh"
+wget -O renew-ws "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/renew-ws.sh"
+wget -O renew-vless "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/renew-vless.sh"
+wget -O renew-tr "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/renew-tr.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/cert.sh"
+wget -O autobackup "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/autobackup.sh"
+wget -O backup "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/backup.sh"
+wget -O bckp "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/bckp.sh"
+wget -O restore "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/restore.sh"
+wget -O strt "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/strt.sh"
+wget -O limit-speed "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/limit-speed.sh"
+wget -O add-ss "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/add-ss.sh"
+wget -O del-ss "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/del-ss.sh"
+wget -O cek-ss "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/cek-ss.sh"
+wget -O renew-ss "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/renew-ss.sh"
+wget -O add-wg "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/add-wg.sh"
+wget -O del-wg "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/del-wg.sh"
+wget -O cek-wg "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/cek-wg.sh"
+wget -O renew-wg "https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/renew-wg.sh"
 chmod +x autobackup
 chmod +x backup
 chmod +x bckp
@@ -116,19 +116,19 @@ chmod +x add-wg
 chmod +x del-wg
 chmod +x cek-wg
 chmod +x renew-wg
-wget -O /usr/bin/add-l2tp https://raw.githubusercontent.com/Endka22/Autoscript/main/add-l2tp.sh && chmod +x /usr/bin/add-l2tp
-wget -O /usr/bin/del-l2tp https://raw.githubusercontent.com/Endka22/Autoscript/main/del-l2tp.sh && chmod +x /usr/bin/del-l2tp
-wget -O /usr/bin/add-pptp https://raw.githubusercontent.com/Endka22/Autoscript/main/add-pptp.sh && chmod +x /usr/bin/add-pptp
-wget -O /usr/bin/del-pptp https://raw.githubusercontent.com/Endka22/Autoscript/main/del-pptp.sh && chmod +x /usr/bin/del-pptp
-wget -O /usr/bin/renew-pptp https://raw.githubusercontent.com/Endka22/Autoscript/main/renew-pptp.sh && chmod +x /usr/bin/renew-pptp
-wget -O /usr/bin/renew-l2tp https://raw.githubusercontent.com/Endka22/Autoscript/main/renew-l2tp.sh && chmod +x /usr/bin/renew-l2tp
-wget -O /usr/bin/ssr https://raw.githubusercontent.com/Endka22/Autoscript/main/ssrmu.sh && chmod +x /usr/bin/ssr
-wget -O /usr/bin/add-ssr https://raw.githubusercontent.com/Endka22/Autoscript/main/add-ssr.sh && chmod +x /usr/bin/add-ssr
-wget -O /usr/bin/del-ssr https://raw.githubusercontent.com/Endka22/Autoscript/main/del-ssr.sh && chmod +x /usr/bin/del-ssr
-wget -O /usr/bin/renew-ssr https://raw.githubusercontent.com/Endka22/Autoscript/main/renew-ssr.sh && chmod +x /usr/bin/renew-ssr
-wget -O /usr/bin/add-sstp https://raw.githubusercontent.com/Endka22/Autoscript/main/add-sstp.sh && chmod +x /usr/bin/add-sstp
-wget -O /usr/bin/del-sstp https://raw.githubusercontent.com/Endka22/Autoscript/main/del-sstp.sh && chmod +x /usr/bin/del-sstp
-wget -O /usr/bin/cek-sstp https://raw.githubusercontent.com/Endka22/Autoscript/main/cek-sstp.sh && chmod +x /usr/bin/cek-sstp
-wget -O /usr/bin/renew-sstp https://raw.githubusercontent.com/Endka22/Autoscript/main/renew-sstp.sh && chmod +x /usr/bin/renew-sstp
+wget -O /usr/bin/add-l2tp https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/add-l2tp.sh && chmod +x /usr/bin/add-l2tp
+wget -O /usr/bin/del-l2tp https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/del-l2tp.sh && chmod +x /usr/bin/del-l2tp
+wget -O /usr/bin/add-pptp https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/add-pptp.sh && chmod +x /usr/bin/add-pptp
+wget -O /usr/bin/del-pptp https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/del-pptp.sh && chmod +x /usr/bin/del-pptp
+wget -O /usr/bin/renew-pptp https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/renew-pptp.sh && chmod +x /usr/bin/renew-pptp
+wget -O /usr/bin/renew-l2tp https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/renew-l2tp.sh && chmod +x /usr/bin/renew-l2tp
+wget -O /usr/bin/ssr https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/ssrmu.sh && chmod +x /usr/bin/ssr
+wget -O /usr/bin/add-ssr https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/add-ssr.sh && chmod +x /usr/bin/add-ssr
+wget -O /usr/bin/del-ssr https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/del-ssr.sh && chmod +x /usr/bin/del-ssr
+wget -O /usr/bin/renew-ssr https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/renew-ssr.sh && chmod +x /usr/bin/renew-ssr
+wget -O /usr/bin/add-sstp https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/add-sstp.sh && chmod +x /usr/bin/add-sstp
+wget -O /usr/bin/del-sstp https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/del-sstp.sh && chmod +x /usr/bin/del-sstp
+wget -O /usr/bin/cek-sstp https://raw.githubusercontent.com/Tabah6/Autoscriptvps/main/cek-sstp.sh && chmod +x /usr/bin/cek-sstp
+wget -O /usr/bin/renew-sstp https://raw.githubusercontent.com/Tabaah6/Autoscriptvps/main/renew-sstp.sh && chmod +x /usr/bin/renew-sstp
 echo "Done Patch"
 rm -f patch.sh
